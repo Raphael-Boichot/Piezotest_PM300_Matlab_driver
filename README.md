@@ -6,6 +6,8 @@ Because measuring the d33 piezoelectric coefficient in thin films is harder than
 
 The device is delivered without any example code, but the protocol is very easy to implement (I do not remind where I found it, must be on the vendor website or given on a sheet of paper with the machine).
 
+You will notice lots of dead times during measurements: they are here on purpose. It's a slow process, the d33 measure drifts during several dozens of seconds before stabilizing. This is not due to the PM300 meter but an artifacts of the Berlincourt method (exact reason is unknown). These codes were optimized after days of trial an errors, so you can rely on the timing proposed here.
+
 ## What do the codes ?
 
 - **Piezotest_PM300_calibration.m** makes an automatic calibration bu using the standardized samples given by the device manufacturer. This is possible ONLY by using the serial port and is mandatory before each measurement campaign ;
