@@ -6,4 +6,12 @@ Because mesauring the d33 piezoelectric coefficient is harder than it looks, I h
 
 ## What do the codes ?
 
+- **Piezotest_PM300_calibration.m** makes an automatic calibration bu using the standardized samples given by the device manufacturer. This is possible ONLY by using the serial port and is mandatory before each measurement campaign ;
+- **Piezotest_PM300_reader.m** automates the d33 reading of a sample by taking and averaging 20 measurements ;
+- **Piezotest_PM300_calibration_reader.m** automates both processes.
 
+These codes can be very easily ported to [GNU Octave](https://octave.org/) in case you do not own a Matlab License.
+
+## Acknowledgements
+
+Author wants to thanks [Juan Su](https://www.researchgate.net/profile/Juan-Su-5) for her endless patience using this code and the PM300 meter.
