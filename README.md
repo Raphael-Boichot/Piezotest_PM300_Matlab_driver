@@ -16,7 +16,7 @@ These codes can be very easily ported to [GNU Octave](https://octave.org/) in ca
 
 ## Funfact
 
-The best reference for zero calibration was made with the business card of a political commissar I met in China during my short career as a "flying professor". I do not know if this is a first order parameter in the measurement.  
+The best reference for calibrating the "zero" we ever found was the business card of a political commissar I met in China during my short career as a "flying professor". I do not know if this is a first order parameter in the measurement but if it is, good luck.  
 
 ## Acknowledgements
 
