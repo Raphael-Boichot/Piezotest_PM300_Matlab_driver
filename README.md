@@ -6,7 +6,7 @@ Because measuring the d33 piezoelectric coefficient in thin films is harder than
 
 The device is delivered without any example code, but the protocol is very easy to implement (I do not remind where I found it, must be on the vendor website or given on a sheet of paper with the machine).
 
-**You will notice lot of dead times during measurements: they are here on purpose.** It's a slow process, the d33 measure drifts during several dozens of seconds before stabilizing. This is not due to the PM300 meter but an artifact of the quasi-static Berlincourt method used here (exact reason physical is unknown). These codes were optimized after days of trial an errors, so you can safely rely on the timing proposed here.
+**You will notice lot of dead times during measurements: they are here on purpose.** It's a slow process, the d33 measure drifts during several dozens of seconds before stabilizing. This is not due to the PM300 meter which is a very sturdy and reliable device but an artifact of the quasi-static Berlincourt method used here (exact physical reason is unknown). These codes were optimized after days of trial an errors, so you can safely rely on the timing proposed here.
 
 ## What do the codes ?
 
@@ -18,7 +18,7 @@ These codes can be very easily ported to [GNU Octave](https://octave.org/) in ca
 
 ## Funfact
 
-The best reference for calibrating the "zero" we ever found was the business card of a political commissar I met in China during my short career as a "flying professor". I do not know if this is a first order parameter in the measurement but if it is, good luck.  
+The best reference for calibrating the "zero" of the PM300 we ever found was the business card of a political commissar I met in China (very kind incidentally), during my yet forgotten burden of "flying professor" for the Sun Yat-sen University. I do not know if this is a very important parameter in the measurement but if it is, good luck.  
 
 ## Acknowledgements
 
