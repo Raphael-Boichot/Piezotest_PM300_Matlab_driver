@@ -9,7 +9,7 @@ s.timeout=1;
 k=0;
 fprintf(s,'rl');
 
-for i=1:1:10;
+for i=1:1:10
     k=k+1;
 fprintf(s,'d');
 pause(5)
@@ -22,7 +22,7 @@ fprintf(s,'sz');
 
 uiwait(msgbox('Mount the calibration sample (255 pC/N) and check for positive reading','Success','modal'));
 
-for i=1:1:10;
+for i=1:1:10
     k=k+1;
 fprintf(s,'d');
 pause(5)
@@ -35,7 +35,7 @@ fprintf(s,'cada255');
 
 uiwait(msgbox('Calibration checking','Success','modal'));
 
-for i=1:1:10;
+for i=1:1:10
     k=k+1;
 fprintf(s,'d');
 pause(5)
@@ -47,7 +47,7 @@ end
 uiwait(msgbox('Calibration terminated','Success','modal'));
 
 
-fclose(s)
+fclose(s);
 delete(s)
 clear s
 
