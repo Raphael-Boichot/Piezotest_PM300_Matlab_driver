@@ -18,7 +18,7 @@ These codes can be very easily ported to [GNU Octave](https://octave.org/) in ca
 
 ## Funfact
 
-The best reference for calibrating the "zero" of the PM300 we ever found was the business card of a political commissar I met in China (very kind incidentally), during my yet forgotten burden of "flying professor" for the Sun Yat-sen University. I do not know if this is a very important parameter in the measurement but if it is, good luck.  
+The best reference for calibrating the "zero" of the PM300 we ever found was the business card of a political commissar I met in China (very kind incidentally), during my yet forgotten career of "flying professor" for the Sun Yat-sen University. I do not know if this is a very important parameter in the measurement but if it is, good luck.  
 
 ## Acknowledgements
 
