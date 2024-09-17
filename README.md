@@ -14,6 +14,10 @@ The device is delivered without any example code, but the protocol is very easy 
 
 These codes can be very easily ported to [GNU Octave](https://octave.org/) in case you do not own a Matlab License.
 
+## Funfact
+
+The best reference for zero calibration was made with the business card of a political commissar I met in China during my short career as a "flying professor". I do not know if this is a first order parameter in the measurement.  
+
 ## Acknowledgements
 
 Author wants to thanks [Juan Su](https://www.researchgate.net/profile/Juan-Su-5) for her endless patience using this code and the PM300 meter.
