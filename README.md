@@ -1,8 +1,8 @@
-# Matlab codes to calibrate and make measurements with a [PM300 PiezoMeter system](https://www.piezotest.com/d33piezometer.php)
+## Matlab codes to calibrate and make measurements with a PM300 PiezoMeter system
 
 ## Why ?
 
-Because measuring the d33 piezoelectric coefficient in thin films is harder than it looks, I have developped a series of codes to calibrate a PM300 PiezoMeter system and make accurate measurements. The device can of course be used directly from the front panel in "one shot" mode, but we found that measuring the d33 for a longer period of time, automatically with the serial port, give a better accuracy/repeatability.
+Because measuring the d33 piezoelectric coefficient in thin films is harder than it looks, I have developped a series of codes to calibrate a [PM300 PiezoMeter system](https://www.piezotest.com/d33piezometer.php) and make accurate measurements. The device can of course be used directly from the front panel in "one shot" mode, but we found that measuring the d33 for a longer period of time, automatically with the serial port, give a better accuracy/repeatability.
 
 The device is delivered without any example code, but the protocol is very easy to implement (I do not remind where I found it, must be on the vendor website or given on a sheet of paper with the machine).
 
